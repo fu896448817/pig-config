@@ -10,17 +10,17 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
-    password: lengleng
-    url: jdbc:mysql://123.206.94.20:3356/pig?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true
+    password: 2200153
+    url: jdbc:mysql://localhost:3307/pig?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true
   redis:
     host: 127.0.0.1
     port: 6379
     password: ENC(pr0Ohcnc2rcqFjM/8OCjPA==)
   rabbitmq:
-    host: 123.206.94.20
-    port: 5672
-    username: ENC(7/5Zi1aQY/I7GACnfdVbpR1JtTrkM2Sa)
-    password: ENC(7/5Zi1aQY/I7GACnfdVbpR1JtTrkM2Sa)
+    host: localhost
+    port: 15672
+    username: guest
+    password: guest
   http:
     multipart:
       max-file-size: 1000MB
